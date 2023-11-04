@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+body{
+    background: #e8effc;
+    color: rgb(134, 49, 190);
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    padding: 20px;
+}
+
+.navegacao a{
+    text-decoration: none;
+    color: rgb(53, 149, 194);
+}
+
+nav{
+    display: flex;
+    gap: 32px;
+}
+
+img{
+    border-radius: 71px;
+    height: 137px;
+    width: 139px;
+}
+
+.parte1{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    gap: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topicos{
+    color: rgb(138, 53, 194);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fonte{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.topico1, .topico2, .topico3, .topico4, .topico5{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16% ;
+    margin-bottom: 20px;
+}
+
+.topico4 a{
+    text-decoration: none;
+    color: black;
+    color: rgb(53, 149, 194);
+}
+
+.topico4{
+    display: flex;
+    gap: 40px;
+}
+
+ion-icon{
+    font-size: 22px;
+}
+
+.ion-insta{
+    color: rgb(148, 33, 119);
+}
+
+.ion-git{
+    color: black;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+    border-top: 0.4px solid cadetblue;
+    padding-top: 10px;
+}
